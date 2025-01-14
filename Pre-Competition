@@ -3,10 +3,14 @@
 //Program: Pre-Competition
 //Hardware: Bolt #SB-B2F8
 
-//Start
-//Bolt will say Start acrossed the LED's
+//Start & Say Start
+//Bolt will say Start acrossed the LED's & Say it out loud
 //Driver:: Lincoln Hess
 //Navigator: Lucas Winfrey
+async function startProgram() {
+	await speak("Start", true);
+	await setDisplayText(`Hello\nWorld!`, { r: 255, g: 255, b: 255 }, { r: 0, g: 0, b: 0 }, 1);
+}
 
 
 
