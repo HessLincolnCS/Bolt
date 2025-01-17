@@ -6,7 +6,7 @@
 
 //beginProgram
 async function startProgram() {
-/*
+
 //Start & Say Start
 //Bolt will say Start acrossed the LED's & Say it out loud
 //Driver:: Lincoln Hess
@@ -33,12 +33,13 @@ async function startProgram() {
 	setSpeed(60);
 	await delay(1.5);
 	await roll(90, 60, 1);
-	return;
 
-*/
+
+
 //Play Sound
-//Driver: Lucas Winfrey
+//Driver:Lucas Winfrey
 //Navigator: Lincoln Hess
+	await delay(0.5);
 	await Sound.Animal.Monkey.play(true);
 
 //Figure Eight
@@ -49,7 +50,7 @@ async function startProgram() {
 
 
 //Star
-//Driver: Lucas Winfrey
+//Driver:Lucas Winfrey
 //Navigator: Lincoln Hess
 
 //endProgram
