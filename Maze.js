@@ -21,8 +21,8 @@ await speak("Start", true);
 //Driver: Lincoln Hess
 //Navigator: Lucas Winfrey
 
-await setSpeed(60);
-	await delay(2.65);
+await setSpeed(30);
+	await delay(5.2);
 	await setSpeed(0);
 	await delay(1);
 	await setMainLed({ r: 0, g: 255, b: 0 });
